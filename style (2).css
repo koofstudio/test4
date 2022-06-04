@@ -1,0 +1,62 @@
+
+
+
+/*
+	Author: Yury Nemets
+	Site: www.sitehere.ru
+*/
+
+.fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top:45%;
+}
+ 
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width:80%;
+}
+
+
+
+
+ 
+@media (max-width: 767px) {
+	
+	.fullscreen-bg__video {
+		display: none;
+	}
+
+	
+}
+
+/**/
+.backToSitehereBtn{
+	display: block;
+	width: 150px;
+	height: 150px;
+	background: #01BC78;
+	text-align: center;
+	line-height: 170px;
+	font-size: 20px;
+	border-radius: 50%;
+	color:#fff;
+	position: absolute;
+	text-decoration: none;
+	top:-40px;
+	left:-40px;
+	transform:rotate(-45deg) scale(1);
+	transition:all 0.25s linear;
+}
+
+.backToSitehereBtn:hover {
+	text-decoration: none;
+	top:-10px;
+	left:-10px;
+	transform:rotate(-45deg) scale(1.3);
+}
